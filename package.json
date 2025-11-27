@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "scripts": {
+    "test_task_1": "jest ./task_1/src/ListFiltering.test.ts",
+    "test_task_2": "jest ./task_2/src/isSquare.test.ts",
+    "new:task": "tsx scripts/create-task.ts"
+  },
+  "devDependencies": {
+    "@types/chai": "^5.2.3",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.10.1",
+    "chai": "^4.5.0",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.5",
+    "tsx": "^4.20.6"
+  }
+}
