@@ -17,4 +17,5 @@ export default function getCount(str: string): number {
   return count
 }
 
+
 console.log(getCount("abracadabra"))
